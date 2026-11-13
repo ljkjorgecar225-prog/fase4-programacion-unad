@@ -166,7 +166,7 @@ class AsesoriasEspecializadas(Servicio):
             logging.warning(f"Error en cálculo de asesorías: {e}")
             return self.costo_base
 
-
+# Bloque de Clase Reserva y Gestión de Estados desarrollado por: Jorge Isaac Carvajal Alvear
 # ==========================================
 # CLASE RESERVA Y GESTIÓN DE ESTADOS
 # ==========================================
@@ -214,7 +214,7 @@ class Reserva:
         logging.info(f"La reserva #{self.id_reserva} ha sido cancelada.")
         print(f"-> La reserva #{self.id_reserva} fue cancelada correctamente.")
 
-
+# Bloque Principal (Main) y 10 Simulaciones desarrollado por: Jorge Isaac Carvajal Alvear
 # ==========================================
 # SIMULACIÓN DE LAS 10 OPERACIONES (MAIN)
 # ==========================================
