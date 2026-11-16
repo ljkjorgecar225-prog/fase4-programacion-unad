@@ -1,6 +1,12 @@
+# ==============================================================================
+# Proyecto: Sistema de Gestión Modular - Fase 4 (Programación)
+# Autores: Irlena Marcela Messino Anaya y Jorge Isaac Carvajal Alvear
+# Universidad Nacional Abierta y a Distancia (UNAD) - 2026
+# ==============================================================================
+
 import logging
 from abc import ABC, abstractmethod
-
+# Bloque de Configuración del Archivo Logs desarrollado por: Jorge Isaac Carvajal Alvear
 # ==========================================
 # CONFIGURACIÓN DEL ARCHIVO DE LOGS
 # ==========================================
@@ -12,6 +18,7 @@ logging.basicConfig(
     format='%(asctime)s - %(levelname)s - %(message)s'
 )
 
+# Bloque de Excepciones Personalizadas desarrollado por: Jorge Isaac Carvajal Alvear
 # ==========================================
 # EXCEPCIONES PERSONALIZADAS
 # ==========================================
