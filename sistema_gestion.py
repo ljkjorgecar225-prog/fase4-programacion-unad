@@ -95,7 +95,7 @@ class Cliente(EntidadSistema):
     def obtener_detalles(self):
         return f"Cliente ID: {self._id_entidad} | Nombre: {self._nombre} | Correo: {self._correo}"
 
-# Bloque de Clase abstractas servicio y especializados desarrollado por: irlena marcela messino anaya
+# Bloque de Clase abstractas servicio y especializados desarrollado por: Irlena Marcela Messino Anaya
 # ==========================================
 # CLASE ABSTRACTA SERVICIO Y ESPECIALIZADOS
 # ==========================================
